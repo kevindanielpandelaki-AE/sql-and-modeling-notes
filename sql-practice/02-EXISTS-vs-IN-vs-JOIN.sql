@@ -32,4 +32,5 @@ WHERE EXISTS (
 Tanpa NULL: NOT IN dan NOT EXISTS menghasilkan output yang sama.
 Dengan NULL: NOT IN bisa diam-diam menghilangkan baris atau mengosongkan hasil, NOT EXISTS tetap konsisten.
 
+-- Untuk perbedaan waktu tidak terlalu significant antara menggunakan Option 1 dan Option 2.
 
