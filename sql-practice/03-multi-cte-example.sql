@@ -79,3 +79,5 @@ ORDER BY pr.category_id, pr.total_revenue DESC;
 --    -> Ini akan salah hasilnya, karena AVG() akan dihitung dari baris
 --       order_items mentah (kena duplikasi tiap quantity), bukan dari
 --       total_revenue per produk yang sudah di-aggregate lebih dulu.
+
+-- Saya sedang melakukan perubahan untuk menguji merge conflict, ini dimasukan di branch mc 2
