@@ -80,4 +80,5 @@ ORDER BY pr.category_id, pr.total_revenue DESC;
 --       order_items mentah (kena duplikasi tiap quantity), bukan dari
 --       total_revenue per produk yang sudah di-aggregate lebih dulu.
 
+-- Saya sedang melakukan perubahan untuk menguji merge conflict, ini dimasukan di branch mc 2
 -- Saya sedang melakukan perbahan untuk menguji merge conflict, ini dimasukan di branch mc 1
